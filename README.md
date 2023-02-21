@@ -11,3 +11,4 @@ ___
 :exclamation: Редактирование товара: для администратора   
 :cookie: Авторизация
 
+Ссылка на сайт: practice-virid.vercel.app
