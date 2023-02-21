@@ -1,7 +1,7 @@
 import Orange from '../assets/boots/Orange.png';
 import style from '../scss/HomePage.module.scss';
-
-import { Product } from '../components/product'
+import { Product } from '../components/product';
+import { Detals } from '../components/detals';
 
 function HomePage() {
     return (
@@ -11,33 +11,11 @@ function HomePage() {
             </div>
 
             <div className={style.products_block}>
-
-                <Product>asfafFFFFFFFFFFFFFFFFFFs</Product>
-
-
-
-                <div className={style.product}>
-                    <img src={Orange} alt="Orange" className={style.product_img} />
-                    <div className={style.product_text}>
-                        <div className={style.product_title}>Orange</div>
-                        <div className={style.product_price}>13 990 ₽</div>
-                    </div>
-                </div>
-
-                <div className={style.product}>
-                    <img src={Orange} alt="Orange" className={style.product_img} />
-                    <div className={style.product_title}>RS-Z Leather</div>
-                    <div className={style.product_price}>13 990 ₽</div>
-                </div>
-
-                <div className={style.product}>
-                    <img src={Orange} alt="Orange" className={style.product_img} />
-                    <div className={style.product_title}>RS-Z Leather</div>
-                    <div className={style.product_price}>13 990 ₽</div>
-                </div>
-
+                <Product img={Orange} name='Orange sneakers' price='500 ₽' />
+                <Product img={Orange} name='Orange sneakers' price='500' />
+                <Product img={Orange} name='Orange sneakers' price='500' />
+                <Product img={Orange} name='Orange sneakers' price='500' />
             </div>
-
         </section>
     );
 }

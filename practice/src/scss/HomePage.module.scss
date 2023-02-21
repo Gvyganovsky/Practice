@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #ff6b01;
+    animation-name: headerText;
+    animation-duration: 20s;
+}
+
+@keyframes headerText {
+    25% {color: #000;}
+    100%{color: #ff6b01;}
+}
+
 body {
     background-color: #ffebc1;
     font-family: 'Source Sans Pro', sans-serif;
@@ -14,8 +30,8 @@ body {
 }
 
 .logo {
-    width: 200px;
-    height: 45px;
+    width: 100px;
+    height: 60px;
 }
 
 .header_nav {
@@ -24,13 +40,15 @@ body {
 }
 
 .header_text {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     margin: 0 20px;
     cursor: pointer;
 }
 
 .basket {
+    width: 100px;
+    height: 60px;
 }
 
 
@@ -47,7 +65,7 @@ body {
     font-size: 32px;
     font-weight: 700;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 25px;
     color: #2e204c;
 }
 
@@ -55,21 +73,41 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: -50px;
+    margin-top: -220px;
 }
 
 .product {
-    width: 400px;
+    width: 380px;
     height: 450px;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 20px;
     display: grid;
     justify-content: center;
+    background-color: white;
+    cursor: pointer;
 }
 
 .product_img {
     width: 250px;
     height: 250px;
     margin-top: 10px;
+    filter: drop-shadow(16px 16px 20px red);
+}
+
+.product_text {
+    text-align: center;
+}
+
+.product_title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #45409c;
+    margin-bottom: 10px;
+}
+
+.product_price {
+    font-size: 22px;
+    font-weight: 600;
+    color: #717195;
 }

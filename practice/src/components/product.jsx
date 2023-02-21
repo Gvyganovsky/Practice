@@ -1,13 +1,12 @@
 import style from '../scss/HomePage.module.scss';
-import Orange from '../assets/boots/Orange.png';
 
-export const Product = () => {
+export const Product = (props) => {
     return (
-        <div className={style.product}>
-            <img src={Orange} alt="Orange" className={style.product_img} />
+        <div className={style.product} id='props'>
+            <img src={props.img} alt={props.img} className={style.product_img} />
             <div className={style.product_text}>
-                <div className={style.product_title}></div>
-                <div className={style.product_price}></div>
+                <div className={style.product_title}>{props.name}</div>
+                <div className={style.product_price}>{props.price}</div>
             </div>
         </div>
     );
