@@ -1,7 +1,7 @@
 import Orange from '../assets/boots/Orange.png';
 import style from '../scss/HomePage.module.scss';
 import { Product } from '../components/product';
-import { Detals } from '../components/detals';
+import detals from '../scripts/detals';
 
 function HomePage() {
     return (
@@ -11,12 +11,14 @@ function HomePage() {
             </div>
 
             <div className={style.products_block}>
-                <Product img={Orange} name='Orange sneakers' price='500 ₽' />
-                <Product img={Orange} name='Orange sneakers' price='500' />
-                <Product img={Orange} name='Orange sneakers' price='500' />
-                <Product img={Orange} name='Orange sneakers' price='500' />
+                <Product id='orange' img={Orange} name='Orange sneakers' price='500 ₽' />
+                <Product id='red' img={Orange} name='Orange sneakers' price='500' />
+                <Product id='blue' img={Orange} name='Orange sneakers' price='500' />
+                <Product id='green' img={Orange} name='Orange sneakers' price='500' />
             </div>
+
         </section>
+
     );
 }
 
