@@ -1,113 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
-
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-a:hover {
-    color: #ff6b01;
-    animation-name: headerText;
-    animation-duration: 20s;
-}
-
-@keyframes headerText {
-    25% {color: #000;}
-    100%{color: #ff6b01;}
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 
 body {
-    background-color: #ffebc1;
     font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('../assets//icons/fon.png');
+    background-repeat: no-repeat;
 }
 
 .header {
-    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
 }
 
 .logo {
     width: 100px;
-    height: 60px;
+    height: 100px;
 }
 
 .header_nav {
+    margin: 10px;
     display: flex;
-    margin: auto;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header_text {
-    font-size: 24px;
-    font-weight: 700;
-    margin: 0 20px;
-    cursor: pointer;
+    margin: 0 0 0 25px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
 }
 
-.basket {
-    width: 100px;
-    height: 60px;
+.header_text:first-child {
+    margin: 0 30px;
 }
 
-
-
-.block_panel {
-    background: radial-gradient(circle, rgba(254,235,121,1) 0%, rgba(252,189,80,1) 100%);
-    max-width: 900vh;
-    min-height: 40vh;
-    border-radius: 20px;
-    margin: 0 auto;
-}
-
-.panel_title {
-    font-size: 32px;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 45px;
-    color: #2e204c;
-}
-
-.products_block {
+.infoBlock {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.rewards {
+    max-width: 200px;
+    max-height: 70px;
+}
+
+.infoBlock_text_title {
+    color: #008e65;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.infoBlock_text {
+    color: #bab9b8;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Products {
+    padding: 30px 50px;
+    display: flex;
     flex-wrap: wrap;
-    margin-top: -210px;
+    justify-content: center;
 }
 
 .product {
-    width: 380px;
-    height: 450px;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 20px;
+    background-color: #eae9e5;
+    width: 295px;
+    height: 380px;
+    border-radius: 50px;
     display: grid;
     justify-content: center;
-    background-color: white;
-    cursor: pointer;
+    margin: 25px;
 }
 
 .product_img {
-    width: 250px;
-    height: 250px;
-    margin-top: 10px;
-    filter: drop-shadow(16px 16px 20px red);
+    width: 140px;
+    height: 200px;
+    margin: -65px auto 0;
 }
 
 .product_text {
-    text-align: center;
+    margin: -20px auto 0;
 }
 
 .product_title {
-    font-size: 26px;
-    font-weight: 600;
-    color: #45409c;
-    margin-bottom: 10px;
+    color: #a49b8f;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
 }
 
-.product_price {
-    font-size: 22px;
+.product_calories {
+    color: #a39c90;
+    font-size: 16px;
     font-weight: 600;
-    color: #717195;
+    margin-top: 15px;
+}
+
+.product_caloriesBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_caloriesBlockSecond {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
 }

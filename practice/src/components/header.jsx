@@ -1,16 +1,15 @@
 import style from '../scss/HomePage.module.scss';
-import logo from '../assets/icons/logo.png';
 import { ReactComponent as Basket } from '../assets/icons/basket.svg';
+import { ReactComponent as Logo } from '../assets/icons/logo.svg';
 
 export const Header = () => {
     return (
         <header className={style.header}>
-            <img src={logo} alt="logo" className={style.logo} />
             <div className={style.header_nav}>
-                <a href="./Page.jsx" className={style.header_text}>Home</a>
-                <a href="./Page.jsx" className={style.header_text}>Home</a>
-                <a href="./Page.jsx" className={style.header_text}>Home</a>
-                <a href="./Page.jsx" className={style.header_text}>Home</a>
+                <Logo className={style.logo} />
+                <a href="./Page.jsx" className={style.header_text}>Coffe</a>
+                <a href="./Page.jsx" className={style.header_text}>Tea</a>
+                <a href="./Page.jsx" className={style.header_text}>Menu</a>
             </div>
             <Basket className={style.basket} />
         </header>
