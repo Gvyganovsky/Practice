@@ -1,156 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-image: url('../assets//icons/fon.png');
-    background-repeat: no-repeat;
+    font-family: 'Roboto Mono', monospace;
 }
+
+// header
 
 .header {
     display: flex;
-    justify-content: space-between;
-    padding: 30px 50px;
-    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-}
-
-.logo {
-    width: 100px;
-    height: 100px;
-}
-
-.header_nav {
-    margin: 10px;
-    display: flex;
-    align-items: center;
-}
-
-a {
-    text-decoration: none;
+    background-color: #323941;
+    min-height: 48px;
 }
 
 .header_text {
-    margin: 0 0 0 25px;
-    font-size: 20px;
-    color: #000;
-    font-weight: 500;
-    font-family: 'Roboto Mono', monospace;
-    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
 }
 
-.header_text:first-child {
-    margin: 0 30px;
-}
-
-.infoBlock {
+.header_icons {
     display: flex;
-    justify-content: space-between;
-    padding: 30px 50px;
+    flex-wrap: wrap;
 }
 
-.rewards {
-    max-width: 200px;
-    max-height: 70px;
+.basket {
+    margin: 0 29px 0 85px;
+    cursor: pointer;
 }
 
-.infoBlock_text_title {
-    color: #008e65;
-    font-size: 38px;
-    font-weight: bold;
-    text-align: right;
+.instagram {
+    cursor: pointer;
 }
 
-.infoBlock_text {
-    color: #bab9b8;
+.header_number {
     font-size: 16px;
-    font-weight: 600;
-    text-align: right;
+    color: white;
+    margin-left: 29px;
+    letter-spacing: -1.5px;
 }
 
-.Products {
-    padding: 30px 50px;
+// logo
+
+.products {
+    background-color: #323941;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.logoBlock {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.logo_logoBlock_first {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 60px;
+}
+
+.logo_textBlock {
+    margin-left: 16px;
+}
+
+.logo_title {}
+
+.logo_text {
+    font-weight: 600;
+}
+
+.directorBlock {
+    display: flex;
+    align-items: center;
+}
+
+.director {}
+
+.director_textBlock {
+    margin-left: 16px;
+    max-width: 130px;
+}
+
+.director_title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.director_text {
+    color: #009EFF;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+// Product 
+
 .product {
-    background-color: #eae9e5;
-    width: 295px;
-    height: 380px;
-    border-radius: 50px;
+    width: 140px;
+    height: 130px;
     display: grid;
     justify-content: center;
-    margin: 35px 15px;
 }
 
 .product_img {
-    width: 140px;
-    height: 200px;
-    margin: -65px auto 0;
-}
-
-.product_text {
-    margin: -20px auto 0;
+    width: 74px;
+    height: 80px;
 }
 
 .product_title {
-    color: #a49b8f;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.product_calories {
-    color: #a39c90;
-    font-size: 16px;
-    font-weight: 600;
-    margin-top: 15px;
-}
-
-.product_caloriesBlock {
-    display: flex;
-    justify-content: space-between;
-}
-
-.product_caloriesBlockSecond {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 15px;
-}
-
-@media (max-width: 600px) {
-    .rewards {
-        display: none;
-    }
-
-    .infoBlock_text_title {
-        text-align: left;
-    }
-
-    .infoBlock_text {
-        text-align: left;
-    }
-    .header { padding: 20px 10px;}
-}
-
-@media (max-width: 420px) {
-    .logo {
-        width: 50px;
-        height: 50px;
-    }
-
-    .header_text {
-        font-size: 14px;
-        margin: 0 0 0 15px;
-    }
-
-    .infoBlock {
-        padding: 20px 20px;
-    }
-
-    .Products {
-        padding: 20px 20px;
-    }
+    font-size: 18px;
+    font-weight: 700;
 }
