@@ -51,6 +51,11 @@ body {
     justify-content: center;
 }
 
+.line {
+    width: 100%;
+    border-bottom: 1px solid #84888d;
+}
+
 .logoBlock {
     display: flex;
     justify-content: space-around;
@@ -102,19 +107,44 @@ body {
 
 // Product 
 
+.productsBlock {
+    max-width: 950px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 .product {
-    width: 140px;
+    width: 130px;
     height: 130px;
     display: grid;
+    text-align: center;
     justify-content: center;
 }
 
 .product_img {
-    width: 74px;
-    height: 80px;
+    margin: auto;
+    align-items: center;
+    height: 60px;
+    max-width: 70px;
 }
 
 .product_title {
-    font-size: 18px;
+    color: #84888d;
+    font-size: 14px;
     font-weight: 700;
+}
+
+// FreeDay
+
+.freeDay {
+    background-color: #009EFF;
+    min-height: 48px;
+}
+
+.freeDayText {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
 }
