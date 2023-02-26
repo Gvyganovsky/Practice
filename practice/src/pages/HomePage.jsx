@@ -9,6 +9,7 @@ import { ImpressiveFeatures } from '../componentsPC/Impressive features';
 import { KickMAX } from '../componentsPC/KickMAX';
 import { Battery } from '../componentsPC/Battery';
 import { DualBraking } from '../componentsPC/DualBraking';
+import { LedLight } from '../componentsPC/LedLight';
 
 function HomePage() {
     return (
@@ -23,6 +24,7 @@ function HomePage() {
             <KickMAX />
             <Battery />
             <DualBraking />
+            <LedLight />
         </section>
     );
 }
