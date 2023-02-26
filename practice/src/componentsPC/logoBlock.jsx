@@ -24,7 +24,7 @@ export const LogoBlock = () => {
                         Ask a question
                         to the director
                     </div>
-                </div>
+                </div> 
             </div>
         </section>
     );

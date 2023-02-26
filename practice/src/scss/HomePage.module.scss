@@ -156,6 +156,7 @@ body {
     margin: 15px auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .priceBlock {
@@ -265,4 +266,74 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5px;
+}
+
+// miles
+
+.miles {
+    max-width: 1200px;
+    margin: 45px auto;
+}
+
+.miles_icons {
+    display: flex;
+    justify-content: center;
+}
+
+.miles_iconBlock {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    height: 60px;
+}
+
+.miles_text {
+    color: #999999;
+    max-width: 150px;
+    margin-left: 20px;
+}
+
+.miles_iconBlock:first-child {
+    margin-left: 0;
+}
+
+.miles_iconBlockBlue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 60px;
+    background-color: #009EFF;
+    margin-left: 70px;
+    padding: 5px;
+}
+
+.miles_textBlue {
+    width: 160px;
+    margin-left: 20px;
+    color: white;
+}
+
+.miles_textBlocks {
+    max-width: 1075px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    margin: 0 auto;
+}
+
+.miles_title_bold {
+    color: #323941;
+    font-weight: 700;
+    font-size: 25px;
+    max-width: 380px;
+    margin-bottom: 10px;
+}
+
+.miles_text_normal {
+    color: #323941;
+    font-weight: 400;
+    font-size: 13px;
+    max-width: 530px;
 }
