@@ -1,5 +1,4 @@
 import style from '../scss/HomePage.module.scss';
-import { Product } from './product';
 
 import KSE22 from '../assets/bicycles/KS E22.png';
 import KSES1l from '../assets/bicycles/KS ES1l.png';
@@ -15,6 +14,15 @@ import EKSZINGE10 from '../assets/bicycles/EKS ZING E10.png';
 import EKSZINGE12 from '../assets/bicycles/EKS ZING E12.png';
 import KSES4 from '../assets/bicycles/KS ES 4.png';
 import Accessories from '../assets/bicycles/Accessories.png';
+
+export const Product = (props) => {
+    return (
+        <div className={style.product} id={props.id}>
+            <img src={props.img} alt={props.img} className={style.product_img} />
+            <div className={style.product_title}>{props.title}</div>
+        </div>
+    );
+}
 
 export const Products = () => {
     return (
