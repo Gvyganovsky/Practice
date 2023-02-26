@@ -10,6 +10,7 @@ import { KickMAX } from '../componentsPC/KickMAX';
 import { Battery } from '../componentsPC/Battery';
 import { DualBraking } from '../componentsPC/DualBraking';
 import { LedLight } from '../componentsPC/LedLight';
+import { FoldingMechanism } from '../componentsPC/FoldingMechanism';
 
 function HomePage() {
     return (
@@ -25,6 +26,7 @@ function HomePage() {
             <Battery />
             <DualBraking />
             <LedLight />
+            <FoldingMechanism />
         </section>
     );
 }
