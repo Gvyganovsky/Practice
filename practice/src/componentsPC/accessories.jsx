@@ -9,7 +9,7 @@ import SC from '../assets/Accessories/SC.png';
 import SSB from '../assets/Accessories/SSB.png';
 import SPH from '../assets/Accessories/SPH.png';
 import PH from '../assets/Accessories/PH.png';
-import humans from '../assets/Photo/humans.png';
+import humans from '../assets/Photo/humans.jpg';
 
 export const Accessoriess = (props) => {
     return (
