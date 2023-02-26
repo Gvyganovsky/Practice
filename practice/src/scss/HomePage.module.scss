@@ -516,6 +516,33 @@ body {
     margin: 15px auto;
 }
 
+.KickMAX_title {
+    color: #323941;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.KickMax_block {
+    display: flex;
+    align-items: center;
+}
+
+.KickMAX_text {
+    color: #999999;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.KickMAX_textBlock {
+    text-align: right;
+}
+
+.KickMAX_textBlock:first-child {
+    text-align: left;
+}
+
 // Battery
 
 .battery {
