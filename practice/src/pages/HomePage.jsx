@@ -6,6 +6,9 @@ import { Miles } from '../componentsPC/miles';
 import { PackingList } from '../componentsPC/packing list';
 import { Accessories } from '../componentsPC/accessories';
 import { ImpressiveFeatures } from '../componentsPC/Impressive features';
+import { KickMAX } from '../componentsPC/KickMAX';
+import { Battery } from '../componentsPC/Battery';
+import { DualBraking } from '../componentsPC/DualBraking';
 
 function HomePage() {
     return (
@@ -17,6 +20,9 @@ function HomePage() {
             <PackingList />
             <Accessories />
             <ImpressiveFeatures />
+            <KickMAX />
+            <Battery />
+            <DualBraking />
         </section>
     );
 }

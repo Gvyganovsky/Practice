@@ -505,3 +505,80 @@ body {
 .impressiveFeatures_text {
     color: #999999;
 }
+
+// KickMAX
+
+.KickMAX {
+    max-width: 1075px;
+    margin: 15px auto;
+}
+
+// Battery
+
+.battery {
+    width: 100%;
+    background-color: #0E0E16;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.battery_textBlock {
+    max-width: 550px;
+    margin-left: 15%;
+}
+
+.battery_title {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.battery_text {
+    color: white;
+    font-size: 18px;
+}
+
+.Smartbattery_img {
+    width: 60%;
+    height: 100%;
+}
+
+// DualBraking
+
+.DualBraking {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.DualBraking_img {
+    width: 60%;
+    height: 100%;
+}
+
+.DualBraking_textBlock {
+    max-width: 375px;
+    margin-right: 15%;
+}
+
+.battery_title {
+    color: #323941;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 25px;
+    line-height: 45px;
+}
+
+.battery_text {
+    color: #323941;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
