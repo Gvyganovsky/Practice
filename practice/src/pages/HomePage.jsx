@@ -11,6 +11,9 @@ import { Battery } from '../componentsPC/Battery';
 import { DualBraking } from '../componentsPC/DualBraking';
 import { LedLight } from '../componentsPC/LedLight';
 import { FoldingMechanism } from '../componentsPC/FoldingMechanism';
+import { PowerRecycle } from '../componentsPC/PowerRecycle';
+import { Easy } from '../componentsPC/Easy';
+import { RidingModes } from '../componentsPC/RidingModes';
 
 function HomePage() {
     return (
@@ -27,6 +30,9 @@ function HomePage() {
             <DualBraking />
             <LedLight />
             <FoldingMechanism />
+            <PowerRecycle />
+            <Easy />
+            <RidingModes />
         </section>
     );
 }
