@@ -1,4 +1,4 @@
-import style from '../scss/HomePage.module.scss';
+import style from '../scss/PC.module.scss';
 import Smartbattery from '../assets/Photo/Smart battery.png'
 
 export const Battery = () => {

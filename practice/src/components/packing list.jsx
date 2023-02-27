@@ -1,4 +1,4 @@
-import style from '../scss/HomePage.module.scss';
+import style from '../scss/PC.module.scss';
 import Video from '../assets/Photo/Video.png';
 import Pc from '../assets/Photo/Pc.png'
 

@@ -1,20 +1,21 @@
-import style from '../scss/HomePage.module.scss';
-import { LogoBlock } from '../componentsPC/logoBlock';
-import { Products } from '../componentsPC/products';
-import { Bicycles } from '../componentsPC/bicycles';
-import { Miles } from '../componentsPC/miles';
-import { PackingList } from '../componentsPC/packing list';
-import { Accessories } from '../componentsPC/accessories';
-import { ImpressiveFeatures } from '../componentsPC/Impressive features';
-import { KickMAX } from '../componentsPC/KickMAX';
-import { Battery } from '../componentsPC/Battery';
-import { DualBraking } from '../componentsPC/DualBraking';
-import { LedLight } from '../componentsPC/LedLight';
-import { FoldingMechanism } from '../componentsPC/FoldingMechanism';
-import { PowerRecycle } from '../componentsPC/PowerRecycle';
-import { Easy } from '../componentsPC/Easy';
-import { RidingModes } from '../componentsPC/RidingModes';
-import { Downloadmanual } from '../componentsPC/Downloadmanual';
+import style from '../scss/PC.module.scss';
+import styles from '../scss/Mobile.module.scss';
+import { LogoBlock } from '../components/logoBlock';
+import { Products } from '../components/products';
+import { Bicycles } from '../components/bicycles';
+import { Miles } from '../components/miles';
+import { PackingList } from '../components/packing list';
+import { Accessories } from '../components/accessories';
+import { ImpressiveFeatures } from '../components/Impressive features';
+import { KickMAX } from '../components/KickMAX';
+import { Battery } from '../components/Battery';
+import { DualBraking } from '../components/DualBraking';
+import { LedLight } from '../components/LedLight';
+import { FoldingMechanism } from '../components/FoldingMechanism';
+import { PowerRecycle } from '../components/PowerRecycle';
+import { Easy } from '../components/Easy';
+import { RidingModes } from '../components/RidingModes';
+import { Downloadmanual } from '../components/Downloadmanual';
 
 function HomePage() {
     return (

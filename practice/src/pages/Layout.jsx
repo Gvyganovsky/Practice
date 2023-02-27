@@ -1,11 +1,11 @@
 import { Outlet } from 'react-router-dom';
-import { Header } from '../componentsPC/header';
-import { Footer } from '../componentsPC/footer';
+import { Header, HeaderAdapt } from '../components/header';
+import { Footer } from '../components/footer';
 
 function Layout() {
     return (
         <section>
-            <Header />
+            <Header /> <HeaderAdapt />
             <Outlet />
             <Footer />
         </section>

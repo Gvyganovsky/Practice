@@ -1,4 +1,4 @@
-import style from '../scss/HomePage.module.scss';
+import style from '../scss/PC.module.scss';
 import RidingMode from '../assets/Photo/RidingMode.png'
 
 export const RidingModes = () => {

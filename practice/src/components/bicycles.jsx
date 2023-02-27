@@ -1,4 +1,4 @@
-import style from '../scss/HomePage.module.scss';
+import style from '../scss/PC.module.scss';
 import PriceBlock from '../assets/icons/PriceBlock.png'
 
 import { ReactComponent as Amex } from '../assets/payment/Amex.svg';

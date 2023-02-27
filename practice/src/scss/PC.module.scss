@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #323941;
-    min-height: 48px;
+    min-height: 50px;
 }
 
 .header_text {
@@ -73,10 +73,8 @@ body {
 }
 
 .logo_textBlock {
-    margin-left: 16px;
+    margin-left: 15px;
 }
-
-.logo_title {}
 
 .logo_text {
     font-weight: 600;
@@ -86,8 +84,6 @@ body {
     display: flex;
     align-items: center;
 }
-
-.director {}
 
 .director_textBlock {
     margin-left: 16px;
@@ -1155,4 +1151,11 @@ body {
 
 .footer_text {
     margin: 0 20px;
+}
+
+// Adaptiv
+
+@media (max-width: 650px) {
+    .header {display: none;}
+    .logoBlock {display: none;}
 }

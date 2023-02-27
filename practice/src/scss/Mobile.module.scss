@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header {display: none;}
+
+@media (max-width:650px) {
+
+    // header
+
+    .header {
+        display: none;
+        background-color: #ffffff;
+        min-height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_burger {
+        height: 26px;
+        width: 32px;
+        top: 17px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10px;
+    }
+
+    .line1 {
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #0e2431;
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .line2 {
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #0e2431;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .line3 {
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #0e2431;
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .logoBlock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 30px;
+        height: 35px;
+    }
+
+    .logo_textBlock {
+        margin-left: 5px;
+    }
+
+    .logo_title {
+        width: 70px;
+        height: 10px;
+    }
+
+    .logo_text {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .header_icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header_logo {
+        width: 130px;
+        height: 40px;
+    }
+
+    .header_icon {
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}

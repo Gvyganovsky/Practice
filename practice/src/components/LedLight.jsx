@@ -1,4 +1,4 @@
-import style from '../scss/HomePage.module.scss';
+import style from '../scss/PC.module.scss';
 import Ledlight from '../assets/Photo/Ledlight.png'
 
 export const LedLight = () => {
