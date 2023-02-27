@@ -1,5 +1,5 @@
 import style from '../scss/PC.module.scss';
-import styles from '../scss/Mobile.module.scss';
+
 import { LogoBlock } from '../components/logoBlock';
 import { Products } from '../components/products';
 import { Bicycles } from '../components/bicycles';

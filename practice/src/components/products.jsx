@@ -1,4 +1,5 @@
 import style from '../scss/PC.module.scss';
+import styles from '../scss/Mobile.module.scss';
 
 import KSE22 from '../assets/bicycles/KS E22.png';
 import KSES1l from '../assets/bicycles/KS ES1l.png';
@@ -48,10 +49,28 @@ export const Products = () => {
                     <Product id='Accessories' img={Accessories} title='Accessories' />
                 </div>
             </div>
-
             <div className={style.freeDay}>
                 <div className={style.freeDayText}>
                     Free 1 day shipping within California.
+                </div>
+            </div>
+
+            <div className={styles.productsAdapt}>
+                <div className={styles.productsBlock}>
+                    <Product id='KSE22' img={KSE22} title='KSE22' />
+                    <Product id='KSES1l' img={KSES1l} title='KSES1l' />
+                    <Product id='KS Airt 15' img={KSAirt15} title='KSA15' />
+                    <Product id='KS F30' img={KSF30} title='KSF30' />
+                    <Product id='KS E45' img={KSE45} title='KSE45' />
+                    <Product id='KSMAX_1' img={KSMAX_1} title='KSMAX1' />
+                    <Product id='KSMAX_2' img={KSMAX_2} title='KSMAX2' />
+                    <Product id='KSES2' img={KSES2} title='KSES2' />
+                    <Product id='KSES3' img={KSES3} title='KSES3' />
+                    <Product id='EKSZINGE8' img={EKSZINGE8} title='EKSZINGE8' />
+                    <Product id='EKSZINGE10' img={EKSZINGE10} title='EKSZINGE10' />
+                    <Product id='EKSZINGE12' img={EKSZINGE12} title='EKSZINGE12' />
+                    <Product id='KSES4' img={KSES4} title='KSES4' />
+                    <Product id='Accessories' img={Accessories} title='Accessories' />
                 </div>
             </div>
         </section>

@@ -4,14 +4,27 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-.header {display: none;}
+.headerAdapt {
+    display: none;
+}
+
+.header {
+    display: none;
+}
+
+.productsAdapt {
+    display: none;
+}
+
+.products {
+    display: none;
+}
 
 @media (max-width:650px) {
 
     // header
 
-    .header {
-        display: none;
+    .headerAdapt {
         background-color: #ffffff;
         min-height: 50px;
         display: flex;
@@ -97,4 +110,19 @@ body {
         margin: 0 10px;
         cursor: pointer;
     }
+
+    // Products
+
+    .productsAdapt {
+        display: block;
+    }
+
+    .productsBlock {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x proximity;
+        background-color: #323941;
+    }
+
+
 }
