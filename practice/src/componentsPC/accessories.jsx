@@ -29,16 +29,16 @@ export const Accessories = () => {
             <div className={style.Accessories}>
                 <div className={style.accessories_title}>Accessories</div>
                 <div className={style.accessoriess_blocks}>
-                    <Accessoriess id='NES' img={NES} name='NineboT Engine Speaker'
-                        text='The built-in engine sound simulation system can simulate the realistic engine 
-                    roar based on the vehicle s accelerator, brake, speed, and other signals'
-                        price='$149.99'
-                    />
-
                     <Accessoriess id='ER' img={ER} name='Extension Rod'
                         text='The Extension Rod helps you to easily maneuver your scooter, so you no longer
                     need to bend over and push it, making it easier to take with you anywhere.'
                         price='$29.99'
+                    />
+
+                    <Accessoriess id='NES' img={NES} name='NineboT Engine Speaker'
+                        text='The built-in engine sound simulation system can simulate the realistic engine 
+                    roar based on the vehicle s accelerator, brake, speed, and other signals'
+                        price='$149.99'
                     />
 
                     <Accessoriess id='SPGS' img={SPGS} name='Segway Protective Gear Set'
@@ -86,7 +86,7 @@ export const Accessories = () => {
                 </div>
                 <button className={style.SeeMore}>SEE MORE</button>
             </div>
-            <img src={humans} alt="humans" className={style.humans}/>
+            <img src={humans} alt="humans" className={style.humans} />
         </section>
     );
 }

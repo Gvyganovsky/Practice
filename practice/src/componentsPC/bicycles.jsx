@@ -67,7 +67,7 @@ export const Bicycles = () => {
             </div>
 
             <div className="slider">
-                <img src={MAXG30E} alt="MAXG30E" />
+                <img src={MAXG30E} alt="MAXG30E" className={style.slider}/>
             </div>
         </section>
     );

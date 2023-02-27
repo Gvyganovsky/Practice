@@ -154,6 +154,7 @@ body {
 .bicycles {
     max-width: 1200px;
     margin: 15px auto;
+    padding: 0 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -163,11 +164,14 @@ body {
     max-width: 600px;
 }
 
+.slider {
+    width: 320px;
+}
+
 .bicycles_title {
     color: #323941;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
-    line-height: 85px;
     margin-top: 55px;
     margin: 55px 0 10px;
 }
@@ -193,19 +197,15 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid #999999;
-    margin: 0 5px;
+    margin: 0 10px 0 0;
     cursor: pointer;
-}
-
-.warranty_button:first-child {
-    margin: 0 5px 0 0;
 }
 
 .price {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin-top: 30px;
 }
 
@@ -225,6 +225,7 @@ body {
     color: #323941;
     font-size: 28px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .text_blue {
@@ -239,7 +240,7 @@ body {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }
 
 .button_price {
@@ -248,6 +249,7 @@ body {
     background-color: #009EFF;
     color: white;
     border: 0;
+    margin-bottom: 10px;
 }
 
 .button_price:first-child {
@@ -268,6 +270,58 @@ body {
     margin-top: 5px;
 }
 
+@media (max-width: 950px) {
+    .bicycles_title {
+        font-size: 50px;
+    }
+
+    .warranty_buttons {
+        justify-content: left;
+    }
+
+    .warranty_button {
+        width: 120px;
+        font-size: 14px;
+        padding: 1px;
+    }
+
+    .text_blue {
+        max-width: 120px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 905px) {
+    .button_price {
+        width: 150px;
+    }
+}
+
+@media (max-width: 790px) {
+    .warranty_button {
+        margin-top: 10px;
+    }
+
+    .bicycles_title {
+        font-size: 25px;
+    }
+
+    .button_price {
+        width: 110px;
+    }
+}
+
+@media (max-width: 675px) {
+    .price_img {
+        max-width: 120px;
+        max-height: 50;
+    }
+
+    .text_blue {
+        margin-right: 5px;
+    }
+}
+
 // miles
 
 .miles {
@@ -277,7 +331,10 @@ body {
 
 .miles_icons {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: left;
+    padding: 0 15px;
 }
 
 .miles_iconBlock {
@@ -291,6 +348,7 @@ body {
     color: #999999;
     max-width: 150px;
     margin-left: 20px;
+    text-align: left;
 }
 
 .miles_iconBlock:first-child {
@@ -315,12 +373,11 @@ body {
 }
 
 .miles_textBlocks {
-    max-width: 1075px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 0;
-    margin: 0 auto;
+    padding: 25px 15px;
 }
 
 .miles_title_bold {
@@ -338,16 +395,31 @@ body {
     max-width: 530px;
 }
 
+@media (max-width: 1100px) {
+    .miles_iconBlockBlue {
+        margin-left: 0;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 990px) {
+    .miles_iconBlockBlue {
+        margin-top: 15px;
+    }
+}
+
 // Packing List
 
 .packing_list {
-    max-width: 1075px;
+    max-width: 1200px;
     margin: 15px auto;
 }
 
 .packing_list_flex {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 15px;
 }
 
 .packingList_title {
@@ -359,7 +431,7 @@ body {
 .packingList_imgVideo {
     width: 450px;
     height: 250px;
-    margin: 20px 20px 0 0;
+    margin: 40px 0;
 }
 
 .packingList_circleBlock {
@@ -384,6 +456,24 @@ body {
     margin-right: 35px;
 }
 
+@media (max-width: 1015px) {
+    .packingList_imgVideo {
+        width: 340px;
+        height: 180px;
+    }
+
+    .packingList_imgPc {
+        width: 330px;
+        height: 330px;
+    }
+
+    .circle {
+        width: 330px;
+        height: 330px;
+        margin-right: 0;
+    }
+}
+
 // Accessories
 
 .accessories_title {
@@ -395,7 +485,7 @@ body {
 }
 
 .Accessories {
-    max-width: 1075px;
+    max-width: 1200px;
     margin: 45px auto;
 }
 
@@ -426,6 +516,10 @@ body {
     font-size: 28px;
     line-height: 30px;
     margin-bottom: 15px;
+    height: 64px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .accessories_text {
@@ -465,10 +559,73 @@ body {
     width: 100%;
 }
 
+.Ledlight {
+    width: 100%;
+    background-color: #0E0E16;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Ledlight_textBlock {
+    max-width: 540px;
+    margin-right: 120px;
+}
+
+.Ledlight_title {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    max-width: 550px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.Ledlight_text {
+    color: white;
+    font-size: 18px;
+    position: relative;
+}
+
+.LedLight_img {
+    height: 100%;
+    width: 35%;
+}
+
+@media (max-width: 1050px) {
+
+    .Ledlight_title,
+    .Ledlight_text {
+        left: 140px;
+    }
+}
+
+@media (max-width: 990px) {
+    .Ledlight_title {
+        font-size: 34px;
+    }
+
+    .Ledlight_text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    .Ledlight_title {
+        font-size: 24px;
+        left: 70px;
+    }
+
+    .Ledlight_text {
+        font-size: 12px;
+        left: 70px;
+    }
+}
+
 // IMPRESSIVE FEATURES
 
 .impressiveFeatures {
-    max-width: 1075px;
+    max-width: 1200px;
     margin: 45px auto;
 }
 
@@ -512,7 +669,7 @@ body {
 // KickMAX
 
 .KickMAX {
-    max-width: 1075px;
+    max-width: 1200px;
     margin: 15px auto;
 }
 
@@ -526,6 +683,7 @@ body {
 .KickMax_block {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .KickMAX_text {
@@ -543,33 +701,57 @@ body {
     text-align: left;
 }
 
+@media (max-width: 1020px) {
+    .KickScooter_img {
+        max-width: 320px;
+        max-height: 320px;
+    }
+
+    .KickMAX_textBlock {
+        text-align: left;
+    }
+
+    .KickMAX_textBlock:first-child {
+        text-align: right;
+    }
+}
+
+@media (max-width: 735px) {
+    .KickScooter_img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
 // Battery
 
 .battery {
     width: 100%;
     background-color: #0E0E16;
-    height: 700px;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
-    overflow: hidden;
 }
 
 .battery_textBlock {
     max-width: 550px;
-    margin-left: 15%;
 }
 
 .battery_title {
     color: white;
     font-weight: 700;
     font-size: 50px;
+    max-width: 550px;
     margin-bottom: 15px;
+    position: relative;
+    left: 200px;
 }
 
 .battery_text {
     color: white;
     font-size: 18px;
+    position: relative;
+    left: 200px;
 }
 
 .Smartbattery_img {
@@ -577,25 +759,155 @@ body {
     height: 100%;
 }
 
+.PowerRecycle_img {
+    width: 50%;
+    height: 100%;
+}
+
+@media (max-width: 1300px) {
+    .battery_title {
+        font-size: 34px;
+    }
+
+    .battery_text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 900px) {
+    .battery_title {
+        font-size: 24px;
+        left: 150px;
+    }
+
+    .battery_text {
+        font-size: 12px;
+        left: 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    .battery_title {
+        font-size: 24px;
+        left: 100px;
+    }
+
+    .battery_text {
+        font-size: 12px;
+        left: 100px;
+    }
+}
+
+@media (max-width: 700px) {
+    .battery_title {
+        font-size: 20px;
+    }
+
+    .battery_text {
+        font-size: 10px;
+    }
+}
+
+// PowerRecycle
+
+.PowerRecycle_title {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    max-width: 550px;
+    margin-bottom: 15px;
+    position: relative;
+
+}
+
+.PowerRecycle_text {
+    color: white;
+    font-size: 18px;
+    position: relative;
+}
+
+@media (max-width: 1110px) {
+    .PowerRecycle_title {
+        font-size: 24px;
+        left: 40px;
+    }
+
+    .PowerRecycle_text {
+        font-size: 12px;
+        left: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .PowerRecycle_title {
+        font-size: 18px;
+        left: 40px;
+    }
+
+    .PowerRecycle_text {
+        font-size: 10px;
+        left: 40px;
+    }
+}
+
+// RidingModes
+
+.RidingModes_title {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    max-width: 550px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 80px;
+}
+
+.RidingModes_text {
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 80px;
+}
+
+.RidingModes_img {
+    width: 50%;
+    height: 100%;
+}
+
+@media (max-width: 1110px) {
+    .RidingModes_title {
+        font-size: 40px;
+    }
+
+    .RidingModes_text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    .RidingModes_title {
+        font-size: 24px;
+        left: 40px;
+    }
+
+    .RidingModes_text {
+        font-size: 12px;
+        left: 40px;
+    }
+}
+
 // DualBraking
 
 .DualBraking {
     width: 100%;
-    height: 700px;
+    height: 540px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    overflow: hidden;
 }
 
 .DualBraking_img {
-    width: 60%;
+    max-width: 60%;
     height: 100%;
-}
-
-.DualBraking_textBlock {
-    max-width: 375px;
-    margin-right: 15%;
 }
 
 .DualBraking_title {
@@ -604,6 +916,8 @@ body {
     font-size: 50px;
     margin-bottom: 25px;
     line-height: 45px;
+    position: relative;
+    right: 60px;
 }
 
 .DualBraking_text {
@@ -611,12 +925,42 @@ body {
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 15px;
+    position: relative;
+    right: 60px;
+}
+
+@media (max-width: 1320px) {
+    .DualBraking {
+        height: 280px;
+    }
+
+    .DualBraking_img {
+        width: 850px;
+        margin-left: -60px;
+    }
+}
+
+@media (max-width: 1005px) {
+    .DualBraking_title {
+        font-size: 34px;
+        letter-spacing: -1px
+    }
+
+    .DualBraking_text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 780px) {
+    .DualBraking_title {
+        font-size: 24px;
+    }
 }
 
 // FoldingMechanism 
 
 .FoldingMechanism {
-    max-width: 1075px;
+    max-width: 1200px;
     margin: 15px auto;
 }
 
@@ -625,7 +969,7 @@ body {
     font-weight: 700;
     font-size: 50px;
     text-align: center;
-    margin: 75px 0 15px;
+    margin: 45px 0 15px;
 }
 
 .FoldingMechanism_text {
@@ -638,6 +982,34 @@ body {
     display: flex;
     margin: 0 auto;
     margin-bottom: 75px;
+}
+
+@media (max-width: 840px) {
+    .FoldingMechanism_img {
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 780px) {
+    .miles_iconBlock {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 760px) {
+    .FoldingMechanism_title {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 660px) {
+    .miles_iconBlockBlue {
+        width: 207px;
+    }
+
+    .miles_iconBlock {
+        margin-top: 15px;
+    }
 }
 
 // Downloadmanual
@@ -667,7 +1039,7 @@ body {
     color: #323941;
     font-weight: 700;
     font-size: 50px;
-    line-height: 50px;
+    line-height: 45px;
     max-width: 250px;
     margin-bottom: 15px;
 }
@@ -680,6 +1052,7 @@ body {
 .downloadmanual_iconBlock {
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 .downloadmanual_icon {
@@ -703,11 +1076,33 @@ body {
     justify-content: space-around;
     align-items: center;
     border: 0;
+    margin-bottom: 15px;
 }
 
 .downloadmanual_iconButton {
     width: 30px;
     height: 30px;
+}
+
+@media (max-width: 980px) {
+    .downloadmanual {
+        margin: 45px 20px;
+    }
+
+    .downloadmanual_img {
+        width: 240px;
+    }
+
+    .downloadmanual_title {
+        font-size: 26px;
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    .downloadmanual_iconsBlocks {
+        flex-wrap: wrap;
+        justify-content: left;
+    }
 }
 
 // Smartphone

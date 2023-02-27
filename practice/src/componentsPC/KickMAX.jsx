@@ -16,7 +16,7 @@ export const KickMAX = () => {
                     <div className={style.KickMAX_text}>Front Fork</div>
                     <div className={style.KickMAX_text}>Drum Brake</div>
                 </div>
-                <img src={KickScooter} alt="KickScooter" />
+                <img src={KickScooter} alt="KickScooter" className={style.KickScooter_img}/>
                 <div className={style.KickMAX_textBlock}>
                     <div className={style.KickMAX_text}>Dashboard & Power Button</div>
                     <div className={style.KickMAX_text}>Stem</div>
