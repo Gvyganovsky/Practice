@@ -1,0 +1,82 @@
+.RidingModes {
+    width: 100%;
+    background-color: #0E0E16;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.RidingModes_textBlock {
+    max-width: 550px;
+}
+
+.RidingModes_title {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    max-width: 550px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 80px;
+}
+
+.RidingModes_text {
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 80px;
+}
+
+.RidingModes_img {
+    width: 50%;
+    height: 100%;
+}
+
+@media (max-width: 1110px) {
+    .RidingModes_title {
+        font-size: 40px;
+    }
+
+    .RidingModes_text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    .RidingModes_title {
+        font-size: 24px;
+        left: 40px;
+    }
+
+    .RidingModes_text {
+        font-size: 12px;
+        left: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    .RidingModes {
+        display: grid;
+        justify-content: left;
+    }
+
+    .RidingModes_title {
+        margin: 20px 0 5px 15px;
+        left: 0;
+    }
+
+    .RidingModes_text {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        color: #afafaf;
+        margin-left: 15px;
+        left: 0;
+    }
+
+    .RidingModes_img {
+        height: auto;
+        margin: 0 auto;
+        width: 70%;
+    }
+}

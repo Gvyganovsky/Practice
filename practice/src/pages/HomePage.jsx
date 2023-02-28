@@ -14,8 +14,8 @@ import { LedLight } from '../components/PhotoTextBlock/LedLight';
 import { FoldingMechanism } from '../components/PhotoTextBlock/FoldingMechanism';
 import { PowerRecycle } from '../components/PhotoTextBlock/PowerRecycle';
 import { Easy } from '../components/PhotoTextBlock/Easy';
-import { RidingModes } from '../components/PhotoTextBlock/RidingModes';
-import { Downloadmanual } from '../components/OtherBlock/Downloadmanual';
+import { RidingModes } from '../components/RidingModes/RidingModes';
+import { Manual } from '../components/Manual/Manual';
 
 function HomePage() {
     return (
@@ -35,7 +35,7 @@ function HomePage() {
             <PowerRecycle />
             <Easy />
             <RidingModes />
-            <Downloadmanual />
+            <Manual />
         </section>
     );
 }
