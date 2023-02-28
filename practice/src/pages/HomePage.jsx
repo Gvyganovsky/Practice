@@ -10,8 +10,8 @@ import { ImpressiveFeatures } from '../components/IconsBlock/Impressive features
 import { KickMAX } from '../components/IconsBlock/KickMAX';
 import { Battery } from '../components/PhotoTextBlock/Battery';
 import { DualBraking } from '../components/PhotoTextBlock/DualBraking';
-import { LedLight } from '../components/PhotoTextBlock/LedLight';
-import { FoldingMechanism } from '../components/PhotoTextBlock/FoldingMechanism';
+import { LedLight } from '../components/Ledlight/LedLight';
+import { FoldingMechanism } from '../components/FoldingMechanism/FoldingMechanism';
 import { RegenerativeBrake } from '../components/RegenerativeBrake/RegenerativeBrake';
 import { EasyCord } from '../components/EasyCord/EasyCord ';
 import { RidingModes } from '../components/RidingModes/RidingModes';
@@ -19,7 +19,7 @@ import { Manual } from '../components/Manual/Manual';
 
 function HomePage() {
     return (
-        <section className={style.HomePage}>
+        <section className={style.homePage}>
             <LogoBlock />
             <Products />
             <Bicycles />

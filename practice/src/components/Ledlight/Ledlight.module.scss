@@ -1,0 +1,60 @@
+.Ledlight {
+    width: 100%;
+    background-color: #0E0E16;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Ledlight_textBlock {
+    max-width: 540px;
+    position: relative;
+    left: 250px;
+}
+
+.Ledlight_title {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    max-width: 550px;
+    margin-bottom: 15px;
+}
+
+.Ledlight_text {
+    color: white;
+    font-size: 18px;
+}
+
+.LedLight_img {
+    height: 100%;
+    width: 35%;
+}
+
+@media (max-width: 1100px) {
+    .Ledlight_textBlock {
+        left: 100px;
+    }
+
+    .Ledlight_title {
+        font-size: 32px;
+    }
+
+    .Ledlight_text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 750px) {
+    .Ledlight_textBlock {
+        left: 50px;
+    }
+
+    .Ledlight_title {
+        font-size: 24px;
+    }
+
+    .Ledlight_text {
+        font-size: 10px;
+    }
+}
+

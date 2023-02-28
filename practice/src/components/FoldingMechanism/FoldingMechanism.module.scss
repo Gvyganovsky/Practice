@@ -1,0 +1,66 @@
+.FoldingMechanism {
+    max-width: 1200px;
+    margin: 15px auto;
+}
+
+.FoldingMechanism_title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin: 45px 0 15px;
+}
+
+.FoldingMechanism_text {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}
+
+.FoldingMechanism_img {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+
+@media (max-width: 840px) {
+    .FoldingMechanism_img {
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 780px) {
+    .miles_iconBlock {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 760px) {
+    .FoldingMechanism_title {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 650px) {
+    .miles_iconBlockBlue {
+        width: 207px;
+    }
+
+    .miles_iconBlock {
+        margin-top: 15px;
+    }
+
+    .FoldingMechanism_img {
+        max-width: 445px;
+    }
+}
+
+@media (max-width: 460px) {
+    .FoldingMechanism_img {
+        max-width: 280px;
+    }
+
+    .FoldingMechanism_title {
+        font-size: 24px;
+    }
+}

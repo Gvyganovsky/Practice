@@ -3,6 +3,7 @@
     background-color: #0E0E16;
     display: flex;
     justify-content: right;
+    overflow: hidden;
 }
 
 .RegenerativeBrake_textBlock {
@@ -28,20 +29,73 @@
     height: 100%;
 }
 
+.RegenerativeBrakeTwo_img {display: none;}
+
 @media (max-width: 1360px) {
+    .RegenerativeBrake_textBlock {
+        top: 45px;
+        left: 50px;
+    }
+
     .RegenerativeBrake_title {
-        font-size: 24px;
-        left: 180px;
+        font-size: 32px;
     }
 
     .RegenerativeBrake_text {
-        font-size: 12px;
-        left: 180px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .RegenerativeBrake_title {
+        font-size: 18px;
+    }
+
+    .RegenerativeBrake_text {
+        font-size: 10px;
     }
 }
 
 @media (max-width: 650px) {
+    .RegenerativeBrake {
+        display: grid;
+    }
+
+    .RegenerativeBrake_img {
+        display: none;
+    }
+
+    .RegenerativeBrakeTwo_img {
+        display: block;
+    }
+
+    .RegenerativeBrake_textBlock {
+        grid-column: 2;
+        grid-row: 1;
+        margin: 160px 10px 0;
+    }
+
+    .RegenerativeBrakeTwo_img {
+        grid-column: 2;
+        grid-row: 1;
+        margin: -70px auto 0;
+    }
+
     .RegenerativeBrake_text {
         color: #afafaf;
+    }
+
+    .RegenerativeBrake_textBlock {
+        text-align: left;
+        left: 0;
+        top: 0;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .RegenerativeBrakeTwo_img {
+        width: 300px;
+        height: 200px;
     }
 }

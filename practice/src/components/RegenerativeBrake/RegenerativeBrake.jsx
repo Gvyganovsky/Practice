@@ -1,5 +1,6 @@
 import style from './RegenerativeBrake.module.scss';
 import Power from '../../assets/Photo/Power.png'
+import PowerTwo from '../../assets/Photo/PowerTwo.png'
 
 export const RegenerativeBrake = () => {
     return (
@@ -13,6 +14,7 @@ export const RegenerativeBrake = () => {
                 </div>
             </div>
             <img src={Power} alt="Power" className={style.RegenerativeBrake_img} />
+            <img src={PowerTwo} alt="PowerTwo" className={style.RegenerativeBrakeTwo_img} />
         </section>
     );
 }
