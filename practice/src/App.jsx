@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 import { Layout } from './pages/Layout';
 import { HomePage } from './pages/HomePage';
 
-
 function App() {
   return (
     <Routes>

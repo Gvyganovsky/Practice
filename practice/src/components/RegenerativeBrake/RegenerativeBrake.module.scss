@@ -1,0 +1,43 @@
+.RegenerativeBrake {
+    width: 100%;
+    background-color: #0E0E16;
+    display: flex;
+    justify-content: right;
+}
+
+.RegenerativeBrake_textBlock {
+    position: relative;
+    top: 50px;
+}
+
+.RegenerativeBrake_title {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 240px;
+}
+
+.RegenerativeBrake_text {
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 240px;
+}
+
+.RegenerativeBrake_img {
+    width: 60%;
+    height: 100%;
+}
+
+@media (max-width: 1360px) {
+    .RegenerativeBrake_title {
+    }
+}
+
+@media (max-width: 650px) {
+    .RegenerativeBrake_text {
+        color: #afafaf;
+    }
+}
