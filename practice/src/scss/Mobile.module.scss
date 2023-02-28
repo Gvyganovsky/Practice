@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-.headerAdapt {
+.headerAdaptб {
     display: none;
 }
 
@@ -124,5 +124,55 @@ body {
         background-color: #323941;
     }
 
+    // bicyclesAdapt
+
+    .bicycles {
+        display: block;
+    }
+
+    .bicycles_title {
+        text-align: center;
+        color: #323941;
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 55px;
+        margin: 15px auto;
+        max-width: 300px;
+        line-height: 35px;
+    }
+
+    .slider {
+        display: block;
+        width: 270px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .SegwayProtective {
+        max-width: 340px;
+        border: 5.43967px solid #009EFF;
+        margin: 15px auto;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .SegwayProtective_title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #323941;
+        max-width: 240px;
+        margin-bottom: 5px;
+    }
+
+    .SegwayProtective_text {
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 17px;
+        color: #323941;
+        max-width: 220px;
+    }
 
 }

@@ -1,5 +1,5 @@
-import style from '../scss/PC.module.scss';
-import KickScooter from '../assets/Photo/KickScooter.png'
+import style from '../../scss/PC.module.scss';
+import KickScooter from '../../assets/Photo/KickScooter.png'
 
 export const KickMAX = () => {
     return (

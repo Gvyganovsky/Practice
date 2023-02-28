@@ -1,5 +1,5 @@
-import style from '../scss/PC.module.scss';
-import Ledlight from '../assets/Photo/Ledlight.png'
+import style from '../../scss/PC.module.scss';
+import Ledlight from '../../assets/Photo/Ledlight.png'
 
 export const LedLight = () => {
     return (

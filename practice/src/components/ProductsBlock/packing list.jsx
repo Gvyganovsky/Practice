@@ -1,6 +1,6 @@
-import style from '../scss/PC.module.scss';
-import Video from '../assets/Photo/Video.png';
-import Pc from '../assets/Photo/Pc.png'
+import style from '../../scss/PC.module.scss';
+import Video from '../../assets/Photo/Video.png';
+import Pc from '../../assets/Photo/Pc.png'
 
 export const PackingList = () => {
     return (

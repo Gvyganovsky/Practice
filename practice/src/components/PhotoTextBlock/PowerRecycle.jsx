@@ -1,5 +1,5 @@
-import style from '../scss/PC.module.scss';
-import Power from '../assets/Photo/Power.png'
+import style from '../../scss/PC.module.scss';
+import Power from '../../assets/Photo/Power.png'
 
 export const PowerRecycle = () => {
     return (

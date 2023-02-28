@@ -1,5 +1,5 @@
-import style from '../scss/PC.module.scss';
-import rewards from '../assets/icons/rewards.png'
+import style from '../../scss/PC.module.scss';
+import rewards from '../../assets/icons/rewards.png'
 
 export const InfoBlock = () => {
     return (

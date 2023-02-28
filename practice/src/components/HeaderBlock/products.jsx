@@ -1,20 +1,20 @@
-import style from '../scss/PC.module.scss';
-import styles from '../scss/Mobile.module.scss';
+import style from '../../scss/PC.module.scss';
+import styles from '../../scss/Mobile.module.scss';
 
-import KSE22 from '../assets/bicycles/KS E22.png';
-import KSES1l from '../assets/bicycles/KS ES1l.png';
-import KSAirt15 from '../assets/bicycles/KS Air t15.png';
-import KSF30 from '../assets/bicycles/KS F30.png';
-import KSE45 from '../assets/bicycles/KS E45.png';
-import KSMAX_1 from '../assets/bicycles/KS MAX_1.png';
-import KSMAX_2 from '../assets/bicycles/KS MAX_2.png';
-import KSES2 from '../assets/bicycles/KS ES 2.png';
-import KSES3 from '../assets/bicycles/KS ES 3.png';
-import EKSZINGE8 from '../assets/bicycles/EKS ZING E8.png';
-import EKSZINGE10 from '../assets/bicycles/EKS ZING E10.png';
-import EKSZINGE12 from '../assets/bicycles/EKS ZING E12.png';
-import KSES4 from '../assets/bicycles/KS ES 4.png';
-import Accessories from '../assets/bicycles/Accessories.png';
+import KSE22 from '../../assets/bicycles/KS E22.png';
+import KSES1l from '../../assets/bicycles/KS ES1l.png';
+import KSAirt15 from '../../assets/bicycles/KS Air t15.png';
+import KSF30 from '../../assets/bicycles/KS F30.png';
+import KSE45 from '../../assets/bicycles/KS E45.png';
+import KSMAX_1 from '../../assets/bicycles/KS MAX_1.png';
+import KSMAX_2 from '../../assets/bicycles/KS MAX_2.png';
+import KSES2 from '../../assets/bicycles/KS ES 2.png';
+import KSES3 from '../../assets/bicycles/KS ES 3.png';
+import EKSZINGE8 from '../../assets/bicycles/EKS ZING E8.png';
+import EKSZINGE10 from '../../assets/bicycles/EKS ZING E10.png';
+import EKSZINGE12 from '../../assets/bicycles/EKS ZING E12.png';
+import KSES4 from '../../assets/bicycles/KS ES 4.png';
+import Accessories from '../../assets/bicycles/Accessories.png';
 
 export const Product = (props) => {
     return (

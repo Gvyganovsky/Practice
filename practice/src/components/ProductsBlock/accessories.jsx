@@ -1,15 +1,15 @@
-import style from '../scss/PC.module.scss';
+import style from '../../scss/PC.module.scss';
 
-import NES from '../assets/Accessories/NES.png';
-import ER from '../assets/Accessories/ER.png';
-import SPGS from '../assets/Accessories/SPGS.png';
-import NLB from '../assets/Accessories/NLB.png';
-import SEB from '../assets/Accessories/SEB.png';
-import SC from '../assets/Accessories/SC.png';
-import SSB from '../assets/Accessories/SSB.png';
-import SPH from '../assets/Accessories/SPH.png';
-import PH from '../assets/Accessories/PH.png';
-import humans from '../assets/Photo/humans.jpg';
+import NES from '../../assets/Accessories/NES.png';
+import ER from '../../assets/Accessories/ER.png';
+import SPGS from '../../assets/Accessories/SPGS.png';
+import NLB from '../../assets/Accessories/NLB.png';
+import SEB from '../../assets/Accessories/SEB.png';
+import SC from '../../assets/Accessories/SC.png';
+import SSB from '../../assets/Accessories/SSB.png';
+import SPH from '../../assets/Accessories/SPH.png';
+import PH from '../../assets/Accessories/PH.png';
+import humans from '../../assets/Photo/humans.jpg';
 
 export const Accessoriess = (props) => {
     return (

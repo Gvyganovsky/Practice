@@ -1,21 +1,21 @@
 import style from '../scss/PC.module.scss';
 
-import { LogoBlock } from '../components/logoBlock';
-import { Products } from '../components/products';
-import { Bicycles } from '../components/bicycles';
-import { Miles } from '../components/miles';
-import { PackingList } from '../components/packing list';
-import { Accessories } from '../components/accessories';
-import { ImpressiveFeatures } from '../components/Impressive features';
-import { KickMAX } from '../components/KickMAX';
-import { Battery } from '../components/Battery';
-import { DualBraking } from '../components/DualBraking';
-import { LedLight } from '../components/LedLight';
-import { FoldingMechanism } from '../components/FoldingMechanism';
-import { PowerRecycle } from '../components/PowerRecycle';
-import { Easy } from '../components/Easy';
-import { RidingModes } from '../components/RidingModes';
-import { Downloadmanual } from '../components/Downloadmanual';
+import { LogoBlock } from '../components/HeaderBlock/logoBlock';
+import { Products } from '../components/HeaderBlock/products';
+import { Bicycles } from '../components/ProductsBlock/bicycles';
+import { Miles } from '../components/ProductsBlock/miles';
+import { PackingList } from '../components/ProductsBlock/packing list';
+import { Accessories } from '../components/ProductsBlock/accessories';
+import { ImpressiveFeatures } from '../components/IconsBlock/Impressive features';
+import { KickMAX } from '../components/IconsBlock/KickMAX';
+import { Battery } from '../components/PhotoTextBlock/Battery';
+import { DualBraking } from '../components/PhotoTextBlock/DualBraking';
+import { LedLight } from '../components/PhotoTextBlock/LedLight';
+import { FoldingMechanism } from '../components/PhotoTextBlock/FoldingMechanism';
+import { PowerRecycle } from '../components/PhotoTextBlock/PowerRecycle';
+import { Easy } from '../components/PhotoTextBlock/Easy';
+import { RidingModes } from '../components/PhotoTextBlock/RidingModes';
+import { Downloadmanual } from '../components/OtherBlock/Downloadmanual';
 
 function HomePage() {
     return (

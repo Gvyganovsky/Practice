@@ -1,13 +1,13 @@
-import style from '../scss/PC.module.scss';
-import styles from '../scss/Mobile.module.scss';
+import style from '../../scss/PC.module.scss';
+import styles from '../../scss/Mobile.module.scss';
 
-import { ReactComponent as Basket } from '../assets/icons/Basket.svg';
-import { ReactComponent as Instagram } from '../assets/icons/Instagram.svg';
-import { ReactComponent as LogoAdapt } from '../assets/icons/LogoAdapt.svg';
+import { ReactComponent as Basket } from '../../assets/icons/Basket.svg';
+import { ReactComponent as Instagram } from '../../assets/icons/Instagram.svg';
+import { ReactComponent as LogoAdapt } from '../../assets/icons/LogoAdapt.svg';
 
-import { ReactComponent as Phone } from '../assets/icons/Phone.svg';
-import { ReactComponent as InstagramBlack } from '../assets/icons/InstagramBlack.svg';
-import { ReactComponent as BasketBlack } from '../assets/icons/BasketBlack.svg';
+import { ReactComponent as Phone } from '../../assets/icons/Phone.svg';
+import { ReactComponent as InstagramBlack } from '../../assets/icons/InstagramBlack.svg';
+import { ReactComponent as BasketBlack } from '../../assets/icons/BasketBlack.svg';
 
 export const Header = () => {
     return (

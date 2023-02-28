@@ -1,10 +1,10 @@
-import style from '../scss/PC.module.scss';
-import rewards from '../assets/icons/rewards.png'
-import { ReactComponent as Box } from '../assets/icons/Box.svg';
-import { ReactComponent as Sheet } from '../assets/icons/Sheet.svg';
-import { ReactComponent as Tools } from '../assets/icons/Tools.svg';
-import { ReactComponent as Way } from '../assets/icons/Way.svg';
-import { ReactComponent as Hexagon } from '../assets/icons/Hexagon.svg';
+import style from '../../scss/PC.module.scss';
+import rewards from '../../assets/icons/rewards.png'
+import { ReactComponent as Box } from '../../assets/icons/Box.svg';
+import { ReactComponent as Sheet } from '../../assets/icons/Sheet.svg';
+import { ReactComponent as Tools } from '../../assets/icons/Tools.svg';
+import { ReactComponent as Way } from '../../assets/icons/Way.svg';
+import { ReactComponent as Hexagon } from '../../assets/icons/Hexagon.svg';
 
 export const Miles = () => {
     return (

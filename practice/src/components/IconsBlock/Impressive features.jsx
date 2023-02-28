@@ -1,12 +1,12 @@
-import style from '../scss/PC.module.scss';
-import { ReactComponent as Circle } from '../assets/ImpressiveFeatures/Circle.svg';
-import { ReactComponent as LED } from '../assets/ImpressiveFeatures/LED.svg';
-import { ReactComponent as Mph } from '../assets/ImpressiveFeatures/18.6 mph.svg';
-import { ReactComponent as Miles } from '../assets/ImpressiveFeatures/40.4 Miles.svg';
-import { ReactComponent as Corner } from '../assets/ImpressiveFeatures/20%.svg';
-import { ReactComponent as IPX5 } from '../assets/ImpressiveFeatures/IPX5.svg';
-import { ReactComponent as H } from '../assets/ImpressiveFeatures/6H.svg';
-import { ReactComponent as Wh } from '../assets/ImpressiveFeatures/551Wh.svg';
+import style from '../../scss/PC.module.scss';
+import { ReactComponent as Circle } from '../../assets/ImpressiveFeatures/Circle.svg';
+import { ReactComponent as LED } from '../../assets/ImpressiveFeatures/LED.svg';
+import { ReactComponent as Mph } from '../../assets/ImpressiveFeatures/18.6 mph.svg';
+import { ReactComponent as Miles } from '../../assets/ImpressiveFeatures/40.4 Miles.svg';
+import { ReactComponent as Corner } from '../../assets/ImpressiveFeatures/20%.svg';
+import { ReactComponent as IPX5 } from '../../assets/ImpressiveFeatures/IPX5.svg';
+import { ReactComponent as H } from '../../assets/ImpressiveFeatures/6H.svg';
+import { ReactComponent as Wh } from '../../assets/ImpressiveFeatures/551Wh.svg';
 
 export const ImpressiveFeatures = () => {
     return (

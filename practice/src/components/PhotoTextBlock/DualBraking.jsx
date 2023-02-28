@@ -1,10 +1,10 @@
-import style from '../scss/PC.module.scss';
-import EasyImg from '../assets/Photo/EasyImg.png'
+import style from '../../scss/PC.module.scss';
+import DualBrak from '../../assets/Photo/DualBrak.png'
 
-export const Easy = () => {
+export const DualBraking = () => {
     return (
         <section className={style.DualBraking}>
-            <img src={EasyImg} alt="EasyImg" className={style.DualBraking_img} />
+            <img src={DualBrak} alt="DualBrak" className={style.DualBraking_img} />
             <div className={style.DualBraking_textBlock}>
                 <div className={style.DualBraking_title}>Dual Braking System</div>
                 <div className={style.DualBraking_text}>

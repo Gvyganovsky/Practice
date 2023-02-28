@@ -1,5 +1,5 @@
-import style from '../scss/PC.module.scss';
-import RidingMode from '../assets/Photo/RidingMode.png'
+import style from '../../scss/PC.module.scss';
+import RidingMode from '../../assets/Photo/RidingMode.png'
 
 export const RidingModes = () => {
     return (

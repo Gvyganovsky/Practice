@@ -1,9 +1,9 @@
-import style from '../scss/PC.module.scss';
-import DM from '../assets/Photo/DM.png'
-import { ReactComponent as ToolsGray } from '../assets/icons/ToolsGray.svg';
-import { ReactComponent as Charging } from '../assets/icons/Charging.svg';
-import { ReactComponent as Wheel } from '../assets/icons/Wheel.svg';
-import { ReactComponent as Page } from '../assets/icons/page.svg';
+import style from '../../scss/PC.module.scss';
+import DM from '../../assets/Photo/DM.png'
+import { ReactComponent as ToolsGray } from '../../assets/icons/ToolsGray.svg';
+import { ReactComponent as Charging } from '../../assets/icons/Charging.svg';
+import { ReactComponent as Wheel } from '../../assets/icons/Wheel.svg';
+import { ReactComponent as Page } from '../../assets/icons/page.svg';
 
 export const Downloadmanual = () => {
     return (
