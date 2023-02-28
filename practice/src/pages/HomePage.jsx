@@ -12,8 +12,8 @@ import { Battery } from '../components/PhotoTextBlock/Battery';
 import { DualBraking } from '../components/PhotoTextBlock/DualBraking';
 import { LedLight } from '../components/PhotoTextBlock/LedLight';
 import { FoldingMechanism } from '../components/PhotoTextBlock/FoldingMechanism';
-import { PowerRecycle } from '../components/PhotoTextBlock/PowerRecycle';
-import { Easy } from '../components/PhotoTextBlock/Easy';
+import { RegenerativeBrake } from '../components/RegenerativeBrake/RegenerativeBrake';
+import { EasyCord } from '../components/EasyCord/EasyCord ';
 import { RidingModes } from '../components/RidingModes/RidingModes';
 import { Manual } from '../components/Manual/Manual';
 
@@ -32,8 +32,8 @@ function HomePage() {
             <DualBraking />
             <LedLight />
             <FoldingMechanism />
-            <PowerRecycle />
-            <Easy />
+            <RegenerativeBrake />
+            <EasyCord />
             <RidingModes />
             <Manual />
         </section>
