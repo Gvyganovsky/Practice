@@ -26,9 +26,9 @@ export const Header = () => {
 
             <header className={styles.headerAdapt}>
                 <div className={styles.header_burger}>
-                    <span class={styles.line1}></span>
-                    <span class={styles.line2}></span>
-                    <span class={styles.line3}></span>
+                    <span className={styles.line1}></span>
+                    <span className={styles.line2}></span>
+                    <span className={styles.line3}></span>
                 </div>
                 <LogoAdapt alt="Logo" className={styles.header_logo} />
                 <div className={styles.header_icons}>

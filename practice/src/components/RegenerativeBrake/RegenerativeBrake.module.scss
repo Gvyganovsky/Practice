@@ -7,23 +7,20 @@
 
 .RegenerativeBrake_textBlock {
     position: relative;
-    top: 50px;
+    top: 60px;
+    left: 160px;
 }
 
 .RegenerativeBrake_title {
     color: white;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 42px;
     margin-bottom: 15px;
-    position: relative;
-    left: 240px;
 }
 
 .RegenerativeBrake_text {
     color: white;
     font-size: 18px;
-    position: relative;
-    left: 240px;
 }
 
 .RegenerativeBrake_img {
@@ -33,6 +30,13 @@
 
 @media (max-width: 1360px) {
     .RegenerativeBrake_title {
+        font-size: 24px;
+        left: 180px;
+    }
+
+    .RegenerativeBrake_text {
+        font-size: 12px;
+        left: 180px;
     }
 }
 
