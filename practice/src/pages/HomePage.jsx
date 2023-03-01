@@ -4,7 +4,7 @@ import { LogoBlock } from '../components/HeaderBlock/logoBlock';
 import { Products } from '../components/HeaderBlock/products';
 import { Bicycles } from '../components/ProductsBlock/bicycles';
 import { Miles } from '../components/ProductsBlock/miles';
-import { PackingList } from '../components/ProductsBlock/packing list';
+import { PackingList } from '../components/PackingList/PackingList';
 import { Accessories } from '../components/Accessories/Accessories';
 import { ImpressiveFeatures } from '../components/ImpressiveFeatures/ImpressiveFeatures';
 import { KickMAX } from '../components/KickMAX/KickMAX';
