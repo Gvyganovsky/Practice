@@ -1,0 +1,93 @@
+.KickMAX {
+    max-width: 1200px;
+    margin: 15px auto;
+}
+
+.KickMAX_title {
+    color: #323941;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.KickMax_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.KickMAX_textBlockAdapt {display: none;}
+
+.KickMAX_text {
+    color: #999999;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.KickMAX_textBlock {
+    text-align: right;
+}
+
+.KickMAX_textBlock:first-child {
+    text-align: left;
+}
+
+@media (max-width: 1020px) {
+    .KickScooter_img {
+        max-width: 320px;
+        max-height: 320px;
+    }
+
+    .KickMAX_textBlock {
+        text-align: left;
+    }
+
+    .KickMAX_textBlock:first-child {
+        text-align: right;
+    }
+}
+
+@media (max-width: 820px) {
+    .KickMAX_title {
+        font-size: 32px;
+    }
+
+    .KickMAX_text {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 735px) {
+    .KickScooter_img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 420px) {
+    .KickMax_block {
+        align-items: normal;
+        justify-content: space-between;
+    }
+
+    .KickMAX_textBlockAdapt {
+        display: block;
+        position: relative;
+        left: -100px;
+    }
+    .KickMAX_textBlock {display: none;}
+
+    .KickMAX_text {
+        margin: 2px 0;
+        max-width: 250px;
+        font-size: 9px;
+    }
+
+    .KickScooter_img {
+        max-width: 320px;
+        max-height: 450px;
+        margin-right: -35px;
+    }
+}
