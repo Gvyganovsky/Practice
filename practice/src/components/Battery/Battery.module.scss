@@ -1,0 +1,108 @@
+.battery {
+    width: 100%;
+    background-color: #0E0E16;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.battery_textBlock {
+    max-width: 550px;
+    position: relative;
+    left: 200px;
+}
+
+.battery_title {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    max-width: 550px;
+    margin-bottom: 15px;
+}
+
+.battery_text {
+    color: white;
+    font-size: 18px;
+}
+
+.Smartbattery_img {
+    width: 60%;
+    height: 100%;
+}
+
+.PowerRecycle_img {
+    width: 50%;
+    height: 100%;
+}
+
+@media (max-width: 1300px) {
+    .battery_title {
+        font-size: 34px;
+    }
+
+    .battery_text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 900px) {
+    .battery_title {
+        font-size: 24px;
+    }
+
+    .battery_textBlock {
+        left: 150px;
+    }
+
+    .battery_text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    .battery_title {
+        font-size: 24px;
+    }
+
+    .battery_text {
+        font-size: 12px;
+    }
+
+    .battery_textBlock {
+        left: 100px;
+    }
+}
+
+@media (max-width: 700px) {
+    .battery_title {
+        font-size: 20px;
+    }
+
+    .battery_text {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .battery {
+        display: grid;
+    }
+
+    .Smartbattery_img {
+        grid-column: 2;
+        grid-row: 1;
+        width: 100%;
+    }
+
+    .battery_textBlock {
+        grid-column: 2;
+        grid-row: 2;
+        left: 0;
+        text-align: left;
+        margin: 10px 0 15px 10px;
+    }
+
+    .battery_title {
+        font-size: 16px;
+    }
+}
