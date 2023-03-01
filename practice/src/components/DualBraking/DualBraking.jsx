@@ -1,4 +1,4 @@
-import style from '../../scss/PC.module.scss';
+import style from './DualBraking.module.scss';
 import DualBrak from '../../assets/Photo/DualBrak.png'
 
 export const DualBraking = () => {

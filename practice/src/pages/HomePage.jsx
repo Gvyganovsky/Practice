@@ -9,7 +9,7 @@ import { Accessories } from '../components/ProductsBlock/accessories';
 import { ImpressiveFeatures } from '../components/IconsBlock/Impressive features';
 import { KickMAX } from '../components/IconsBlock/KickMAX';
 import { Battery } from '../components/PhotoTextBlock/Battery';
-import { DualBraking } from '../components/PhotoTextBlock/DualBraking';
+import { DualBraking } from '../components/DualBraking/DualBraking';
 import { LedLight } from '../components/Ledlight/LedLight';
 import { FoldingMechanism } from '../components/FoldingMechanism/FoldingMechanism';
 import { RegenerativeBrake } from '../components/RegenerativeBrake/RegenerativeBrake';

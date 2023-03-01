@@ -1,5 +1,4 @@
 import style from '../../scss/PC.module.scss';
-import rewards from '../../assets/icons/rewards.png'
 import { ReactComponent as Box } from '../../assets/icons/Box.svg';
 import { ReactComponent as Sheet } from '../../assets/icons/Sheet.svg';
 import { ReactComponent as Tools } from '../../assets/icons/Tools.svg';
