@@ -1,0 +1,146 @@
+.accessories_title {
+    color: #323941;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.Accessories {
+    max-width: 1200px;
+    margin: 45px auto;
+}
+
+.accessoriess_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.accessories_img {
+    width: 90px;
+    height: 80px;
+    margin: 15px auto;
+}
+
+.accessories_block {
+    width: 300px;
+    height: 370px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.accessories_name {
+    color: #323941;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    height: 64px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.accessories_text {
+    color: #7a7a7a;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.price {
+    color: #323941;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.accessories_button {
+    color: #C6C6C6;
+    width: 130px;
+    height: 40px;
+    margin: 15px auto 0;
+    background-color: white;
+    border: 1px solid #C6C6C6;
+}
+
+.accessories_priceText {
+    display: none;
+}
+
+.SeeMore {
+    background-color: #009EFF;
+    color: white;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    margin: 15px auto;
+    display: flex;
+    border: 0;
+}
+
+@media (max-width: 450px) {
+    .accessories_title {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 700px) {
+    .accessoriess_blocks {
+        flex-wrap: nowrap;
+        justify-content: start;
+        overflow-x: scroll;
+        height: 450px;
+    }
+
+    .accessories_name {
+        justify-content: left;
+    }
+
+    .accessories_block {
+        scroll-snap-align: start;
+    }
+
+    .accessories_priceBlock {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .accessories_priceText {
+        display: block;
+        color: #7a7a7a;
+    }
+
+    .accessories_img {
+        width: 120px;
+        height: 110px;
+        margin: 15px auto;
+    }
+
+    .accessories_name {
+        text-align: left;
+        font-size: 18px;
+        line-height: 20px;
+        width: 200px;
+        margin-bottom: 0;
+    }
+
+    .accessories_text {
+        text-align: left;
+        font-size: 12px;
+        height: 130px;
+    }
+
+    .SeeMore {
+        display: none;
+    }
+
+    .accessories_button {
+        width: 100%;
+        background-color: #009EFF;
+        color: white;
+        border-radius: 4px;
+    }
+}

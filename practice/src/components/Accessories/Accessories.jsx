@@ -1,4 +1,4 @@
-import style from '../../scss/PC.module.scss';
+import style from './Accessories.module.scss';
 
 import NES from '../../assets/Accessories/NES.png';
 import ER from '../../assets/Accessories/ER.png';
@@ -17,7 +17,10 @@ export const Accessoriess = (props) => {
             <img src={props.img} alt={props.img} className={style.accessories_img} />
             <div className={style.accessories_name}>{props.name}</div>
             <div className={style.accessories_text}>{props.text}</div>
-            <div className={style.accessories_price}>{props.price}</div>
+            <div className={style.accessories_priceBlock}>
+                <div className={style.accessories_priceText}>Price:</div>
+                <div className={style.accessories_price}>{props.price}</div>
+            </div>
             <button className={style.accessories_button}>ADD TO CART</button>
         </div>
     );
@@ -86,7 +89,7 @@ export const Accessories = () => {
                 </div>
                 <button className={style.SeeMore}>SEE MORE</button>
             </div>
-            <img src={humans} alt="humans" className={style.humans} />
+            <img src={humans} alt="humans" style={{ width: '100%' }} />
         </section>
     );
 }

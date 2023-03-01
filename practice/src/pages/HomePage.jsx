@@ -5,7 +5,7 @@ import { Products } from '../components/HeaderBlock/products';
 import { Bicycles } from '../components/ProductsBlock/bicycles';
 import { Miles } from '../components/ProductsBlock/miles';
 import { PackingList } from '../components/ProductsBlock/packing list';
-import { Accessories } from '../components/ProductsBlock/accessories';
+import { Accessories } from '../components/Accessories/Accessories';
 import { ImpressiveFeatures } from '../components/ImpressiveFeatures/ImpressiveFeatures';
 import { KickMAX } from '../components/KickMAX/KickMAX';
 import { Battery } from '../components/Battery/Battery';
