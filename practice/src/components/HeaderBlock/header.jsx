@@ -1,6 +1,6 @@
 import style from '../../scss/PC.module.scss';
 
-import { ReactComponent as Basket } from '../../assets/icons/Basket.svg';
+import { ReactComponent as Basket } from '../../assets/icons/basket.svg';
 import { ReactComponent as Instagram } from '../../assets/icons/Instagram.svg';
 
 export const Header = () => {
