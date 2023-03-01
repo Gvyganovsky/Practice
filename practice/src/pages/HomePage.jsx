@@ -6,7 +6,7 @@ import { Bicycles } from '../components/ProductsBlock/bicycles';
 import { Miles } from '../components/ProductsBlock/miles';
 import { PackingList } from '../components/ProductsBlock/packing list';
 import { Accessories } from '../components/ProductsBlock/accessories';
-import { ImpressiveFeatures } from '../components/IconsBlock/Impressive features';
+import { ImpressiveFeatures } from '../components/ImpressiveFeatures/ImpressiveFeatures';
 import { KickMAX } from '../components/KickMAX/KickMAX';
 import { Battery } from '../components/Battery/Battery';
 import { DualBraking } from '../components/DualBraking/DualBraking';

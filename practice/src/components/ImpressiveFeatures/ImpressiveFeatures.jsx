@@ -1,4 +1,4 @@
-import style from '../../scss/PC.module.scss';
+import style from './ImpressiveFeatures.module.scss';
 import { ReactComponent as Circle } from '../../assets/ImpressiveFeatures/Circle.svg';
 import { ReactComponent as LED } from '../../assets/ImpressiveFeatures/LED.svg';
 import { ReactComponent as Mph } from '../../assets/ImpressiveFeatures/18.6 mph.svg';
