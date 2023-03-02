@@ -1,0 +1,119 @@
+.products {
+    background-color: #323941;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid #84888d;
+}
+
+.logoBlock {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.logo_logoBlock_first {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 60px;
+}
+
+.logo_textBlock {
+    margin-left: 15px;
+}
+
+.logo_text {
+    font-weight: 600;
+}
+
+.directorBlock {
+    display: flex;
+    align-items: center;
+}
+
+.director_textBlock {
+    margin-left: 16px;
+    max-width: 130px;
+}
+
+.director_title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.director_text {
+    color: #009EFF;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+// Product 
+
+.productsBlock {
+    max-width: 950px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.product {
+    width: 130px;
+    height: 130px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+.product_img {
+    margin: auto;
+    align-items: center;
+    height: 60px;
+    max-width: 70px;
+}
+
+.product_title {
+    color: #84888d;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+// FreeDay
+
+.freeDay {
+    background-color: #009EFF;
+    min-height: 48px;
+}
+
+.freeDayText {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+@media (max-width: 650px) {
+    .productsBlock {
+        flex-wrap: nowrap;
+        justify-content: start;
+        overflow-x: scroll;
+        height: 120px;
+        justify-content: space-between;
+    }
+
+    .product {
+        scroll-snap-align: start;
+        margin: 0 20px;
+    }
+
+    .product_title {
+        width: 120px;
+    }
+}

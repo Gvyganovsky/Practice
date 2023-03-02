@@ -1,0 +1,245 @@
+.bicycles {
+    max-width: 1200px;
+    margin: 15px auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceBlock {
+    max-width: 600px;
+}
+
+.slider {
+    width: 320px;
+}
+
+.bicycles_title {
+    color: #323941;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 55px;
+    margin: 55px 0 10px;
+}
+
+.warranty_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.bicycles_TextTitle {
+    display: grid;
+}
+
+.warrantyBlock {
+    border: 2px solid #999999;
+    padding: 25px;
+    display: grid;
+}
+
+.warranty_button {
+    width: 160px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #999999;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.price {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    margin-top: 30px;
+}
+
+.throughBlock {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 30px 0 0;
+}
+
+.through_price {
+    color: #323941;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.new_price {
+    color: #323941;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text_blue {
+    color: #009EFF;
+    font-weight: 600;
+    font-size: 18px;
+    width: 200px;
+    margin-right: 30px;
+}
+
+.buttonBlock {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.button_price {
+    width: 240px;
+    height: 48px;
+    background-color: #009EFF;
+    color: white;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.button_price:first-child {
+    margin-right: 20px;
+}
+
+.methods {
+    margin-top: 10px;
+}
+
+.methods_text {
+    font-size: 16px;
+}
+
+.payment {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+@media (max-width: 950px) {
+    .bicycles_title {
+        font-size: 50px;
+    }
+
+    .warranty_buttons {
+        justify-content: left;
+    }
+
+    .warranty_button {
+        width: 120px;
+        font-size: 14px;
+        padding: 1px;
+    }
+
+    .text_blue {
+        max-width: 120px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 905px) {
+    .button_price {
+        width: 150px;
+    }
+}
+
+@media (max-width: 790px) {
+    .warranty_button {
+        margin-top: 10px;
+    }
+
+    .bicycles_title {
+        font-size: 25px;
+    }
+
+    .button_price {
+        width: 110px;
+    }
+}
+
+@media (max-width: 675px) {
+    .price_img {
+        max-width: 120px;
+        max-height: 50;
+    }
+
+    .text_blue {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 650px) {
+    .bicycles {
+        display: grid;
+        justify-content: center;
+    }
+
+    .bicycles_TextTitle {
+        display: grid;
+    }
+
+    .priceBlock {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .bicycles_title {
+        margin: 15px 0 10px;
+        text-align: center;
+    }
+
+    .warranty_title {
+        text-align: center;
+    }
+
+    .text_blue {
+        display: none;
+    }
+
+    .price {
+        margin: 15px auto 0;
+    }
+
+    .price_img {
+        display: none;
+    }
+
+    .warrantyBlock {
+        padding: 5px;
+        margin: auto 5px;
+    }
+
+    .warranty_buttons {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .slider {
+        grid-column: 1;
+        grid-row: 1;
+        margin: 0 auto;
+    }
+
+    .buttonBlock {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .button_price {
+       width: 150px;
+    }
+}
+
+@media (max-width: 373px) {
+    .button_price:first-child {
+        margin: 5px 5px 10px;
+    }
+}

@@ -1,0 +1,60 @@
+.miles {
+    max-width: 1200px;
+    margin: 45px auto;
+}
+
+.miles_icons {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: left;
+    padding: 0 15px;
+}
+
+.miles_iconBlock {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    height: 60px;
+    cursor: pointer;
+    color: #999999;
+}
+
+.miles_text {
+    max-width: 150px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.miles_iconBlock:first-child {
+    margin-left: 0;
+}
+
+.miles_iconBlockBlue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 60px;
+    background-color: #009EFF;
+    margin-left: 70px;
+    padding: 5px;
+    color: white;
+}
+
+.miles_textBlue {
+    width: 160px;
+    margin-left: 20px;
+    color: white;
+}
+
+@media (max-width: 1100px) {
+    .miles_icons {
+        justify-content: center;
+    }
+
+    .miles_iconBlock,
+    .miles_iconBlockBlue {
+        margin: 10px 5px;
+    }
+}

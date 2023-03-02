@@ -1,4 +1,4 @@
-import style from '../../scss/PC.module.scss';
+import style from './Products.module.scss';
 
 import KSE22 from '../../assets/bicycles/KS E22.png';
 import KSES1l from '../../assets/bicycles/KS ES1l.png';

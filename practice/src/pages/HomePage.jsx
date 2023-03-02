@@ -1,9 +1,9 @@
 import style from '../scss/PC.module.scss';
 
 import { LogoBlock } from '../components/HeaderBlock/logoBlock';
-import { Products } from '../components/HeaderBlock/products';
-import { Bicycles } from '../components/ProductsBlock/bicycles';
-import { Miles } from '../components/ProductsBlock/miles';
+import { Products } from '../components/Products/Products';
+import { Bicycles } from '../components/Bicycles/Bicycles';
+import { Miles } from '../components/Miles/Miles';
 import { PackingList } from '../components/PackingList/PackingList';
 import { Accessories } from '../components/Accessories/Accessories';
 import { ImpressiveFeatures } from '../components/ImpressiveFeatures/ImpressiveFeatures';
