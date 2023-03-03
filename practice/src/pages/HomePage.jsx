@@ -1,5 +1,3 @@
-import style from '../scss/PC.module.scss';
-
 import { LogoBlock } from '../components/LogoBlock/LogoBlock';
 import { Products } from '../components/Products/Products';
 import { Bicycles } from '../components/Bicycles/Bicycles';
@@ -19,7 +17,7 @@ import { Manual } from '../components/Manual/Manual';
 
 function HomePage() {
     return (
-        <section className={style.homePage}>
+        <section>
             <LogoBlock />
             <Products />
             <Bicycles />
