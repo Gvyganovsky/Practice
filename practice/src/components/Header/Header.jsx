@@ -1,6 +1,6 @@
 import style from './Header.module.scss';
 import { Link } from 'react-router-dom';
-import User from '../../assets/icons/User.png'
+import User from '../../assets/icons/User.png';
 
 export const Header = () => {
     return (
