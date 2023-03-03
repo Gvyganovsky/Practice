@@ -13,6 +13,6 @@ ___
 :thought_balloon: Сложный макет Figma
 
 ### Файлы на этой странице: 
-:zero: practice — Веб-приложение
-:one: Practice Report — Отчет по практике
-:two: README.md — Очень красивый файл :з
+:zero: **practice** — Веб-приложение  
+:one: **Practice Report** — Отчет по практике        
+:two: **README** — Очень красивый файл :з
