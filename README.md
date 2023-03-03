@@ -6,10 +6,10 @@ ___
 :boom: React    
 :star: Интернет магазин           
 :pencil: FireBase  
-:cookie: Авторизация
-:trophy: HTML
-:white_check_mark: CSS
-:gem: JavaScript
+:cookie: Авторизация  
+:trophy: HTML  
+:white_check_mark: CSS  
+:gem: JavaScript  
 :thought_balloon: Сложный макет Figma
 
 ### Файлы на этой странице: 
