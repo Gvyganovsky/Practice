@@ -21,6 +21,7 @@
 .header_icons {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .instagram {
@@ -31,7 +32,6 @@
     font-size: 16px;
     color: white;
     margin-left: 29px;
-    letter-spacing: -1.5px;
 }
 
 @media (max-width: 500px) {

@@ -8,9 +8,11 @@ const LoginPage = () => {
             <div className={styles.block_reg_log}>
                 <div className={styles.title_reg_log}>Вход</div>
                 <Login />
-                <div className={styles.line}></div>
-                <div className={styles.or_text}>OR</div>
-                <div className={styles.line}></div>
+                <div className={styles.block_or}>
+                    <div className={styles.line}></div>
+                    <div className={styles.or_text}>OR</div>
+                    <div className={styles.line}></div>
+                </div>
             </div>
             <Link to="/RegistrationPage"><p className={styles.title_log}>Мне нужно зарегистрироваться</p></Link>
         </section >

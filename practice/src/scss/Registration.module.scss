@@ -15,7 +15,7 @@
 
 .text_reg_log {
     font-size: 16px;
-    color: #4A4863;
+    color: #323941;
     font-weight: bold;
     padding-bottom: 20px;
     text-align: center;
@@ -54,7 +54,7 @@ a {
 }
 
 .buttonReg {
-    background-color: #274051;
+    background-color: #323941;
     color: #fff;
     font-size: 20px;
     width: 310px;
@@ -89,12 +89,13 @@ a {
 .profile_img {
     width: 130px;
     height: 130px;
+    margin: 35px 0 15px;
 }
 
 .profile_email {
     font-size: 16px;
     font-weight: bold;
-    color: #274051;
+    color: #323941;
     margin-top: 0;
 }
 
@@ -104,7 +105,8 @@ a {
     border-radius: 15px;
     cursor: pointer;
     border: 0;
-    background-color: #274051;
+    background-color: #323941;
     color: white;
     font-size: 16px;
+    margin-bottom: 35px;
 }
