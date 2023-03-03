@@ -1,4 +1,4 @@
-import style from '../../scss/PC.module.scss';
+import style from './LogoBlock.module.scss';
 import { ReactComponent as Logo } from '../../assets/icons/Logo.svg';
 import { ReactComponent as Segway } from '../../assets/icons/Segway.svg';
 import { ReactComponent as Director } from '../../assets/icons/Director.svg';

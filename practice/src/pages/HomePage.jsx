@@ -1,6 +1,6 @@
 import style from '../scss/PC.module.scss';
 
-import { LogoBlock } from '../components/HeaderBlock/logoBlock';
+import { LogoBlock } from '../components/LogoBlock/LogoBlock';
 import { Products } from '../components/Products/Products';
 import { Bicycles } from '../components/Bicycles/Bicycles';
 import { Miles } from '../components/Miles/Miles';

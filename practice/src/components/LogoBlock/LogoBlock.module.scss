@@ -1,0 +1,48 @@
+.logoBlock {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.logo_logoBlock_first {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 60px;
+}
+
+.logo_textBlock {
+    margin-left: 15px;
+}
+
+.logo_text {
+    font-weight: 600;
+}
+
+.directorBlock {
+    display: flex;
+    align-items: center;
+}
+
+.director_textBlock {
+    margin-left: 16px;
+    max-width: 130px;
+}
+
+.director_title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.director_text {
+    color: #009EFF;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+@media (max-width: 500px) {
+    .logoBlock {display: none;}
+}
