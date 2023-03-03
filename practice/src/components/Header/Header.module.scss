@@ -13,14 +13,14 @@
     margin: 0 15px;
 }
 
+.user_img {
+    width: 30px;
+    height: 30px;
+}
+
 .header_icons {
     display: flex;
     flex-wrap: wrap;
-}
-
-.basket {
-    margin: 0 29px 0 85px;
-    cursor: pointer;
 }
 
 .instagram {
@@ -34,11 +34,6 @@
     letter-spacing: -1.5px;
 }
 
-.basketBlack,
-.instagramBlack {
-    display: none;
-}
-
 @media (max-width: 500px) {
     .header {
         background-color: #ffffff;
@@ -50,17 +45,6 @@
     }
 
     .header_number {
-        display: none;
-    }
-
-    .basketBlack,
-    .instagramBlack {
-        margin: 0 24px;
-        display: block;
-        cursor: pointer;
-    }
-
-    .basket {
         display: none;
     }
 

@@ -1,0 +1,110 @@
+.section_block {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.title_reg_log {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    padding: 15px 0 5px 0;
+    text-align: center;
+}
+
+.text_reg_log {
+    font-size: 16px;
+    color: #4A4863;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.block_or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 230px;
+    height: 1px;
+    margin: 0 5px;
+    background: #EAEAEA;
+}
+
+.inputBlock {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inputEm {
+    background-color: #F8F8F8;
+    width: 400px;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 0 10px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.buttonReg {
+    background-color: #274051;
+    color: #fff;
+    font-size: 20px;
+    width: 310px;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 0 10px 25px;
+    cursor: pointer;
+}
+
+.or_text {
+    font-size: 18px;
+}
+
+.title_log {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin: 15px 0 63px 0;
+}
+
+// Profile
+
+.profile {
+    max-width: 800px;
+    margin-top: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.profile_img {
+    width: 130px;
+    height: 130px;
+}
+
+.profile_email {
+    font-size: 16px;
+    font-weight: bold;
+    color: #274051;
+    margin-top: 0;
+}
+
+.profile_but {
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 0;
+    background-color: #274051;
+    color: white;
+    font-size: 16px;
+}
